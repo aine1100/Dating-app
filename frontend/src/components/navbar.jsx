@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md bg-white w-full h-16 flex items-center justify-between p-4 md:justify-between fixed top-0 gap-5">
-      <h1 className="font-bold text-2xl">soul meet</h1>
+      <h1 className="font-bold text-2xl text-[#B61561]">soul meet</h1>
       <div className={`fixed inset-0 bg-white flex flex-col items-center justify-center gap-8 p-6 transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:transform-none md:static md:flex md:flex-row md:gap-8 md:p-0 md:bg-transparent`}>
         <button className="absolute top-4 right-4 text-2xl md:hidden" onClick={toggleMenu}>
           <FaTimes />
