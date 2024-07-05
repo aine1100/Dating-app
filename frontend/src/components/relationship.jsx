@@ -18,12 +18,65 @@ const Relationship = () => {
         />
       </div>
       <div className="flex gap-24 pt-10">
-        <div className="bg-blue-400 bg-opacity-70 w-[400px] h-[150px] rounded-tl-3xl rounded-br-3xl"></div>
-        <div className="bg-blue-300 bg-opacity-70 w-[400px] h-[150px] rounded-tl-3xl rounded-br-3xl"></div>
+        <div className="bg-blue-400 bg-opacity-70 w-[400px] h-[150px] rounded-tl-3xl rounded-br-3xl flex gap-2 flex-col  text-center justify-center">
+          <div className="flex gap-10 items-center pl-10">
+            <p className="bg-white shadow-md text-red-400 rounded-[50%] w-[40px] h-[40px] text-center flex items-center justify-center">
+              1
+            </p>
+            <h2 className="font-semibold text-[25px]" >No fakes</h2>
+          </div>
+          <p className="text-[13px] text-[#383535]" >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit
+            odio eaque
+          </p>
+        </div>
+
+        <div className="bg-blue-300 bg-opacity-70 w-[400px] h-[150px] rounded-tl-3xl rounded-br-3xl flex gap-2 flex-col  text-center justify-center">
+        <div className="flex gap-10 items-center pl-10">
+            <p className="bg-white shadow-md text-red-400 rounded-[50%] w-[40px] h-[40px] text-center flex items-center justify-center">
+              2
+            </p>
+            <h2 className="font-semibold text-[25px]" >Opportunity</h2>
+          </div>
+          <p className="text-[13px] text-[#383535]" >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit
+            odio eaque
+          </p>
+        </div>
       </div>
       <div className="flex gap-10 pt-10 pl-20">
-        <div className="bg-red-300 bg-opacity-70 w-[450px] h-[150px] rounded-tl-3xl rounded-br-3xl"></div>
-        <div className="bg-red-200 bg-opacity-70 w-[450px] h-[150px] rounded-tl-3xl rounded-br-3xl"></div>
+        <div className="bg-red-300 bg-opacity-70 w-[450px] h-[150px] rounded-tl-3xl rounded-br-3xl flex gap-2 flex-col  text-center justify-center">
+        <div className="flex gap-10 items-center pl-10">
+            <p className="bg-white shadow-md text-red-400 rounded-[50%] w-[40px] h-[40px] text-center flex items-center justify-center">
+              3
+            </p>
+            <h2 className="font-semibold text-[25px]" >Easy to use</h2>
+          </div>
+          <p className="text-[15px]" >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit
+            odio eaque
+          </p>
+        </div>
+        <div className="bg-red-200 bg-opacity-70 w-[450px] h-[150px] rounded-tl-3xl rounded-br-3xl flex gap-2 flex-col  text-center justify-center">
+        <div className="flex gap-10 items-center pl-10">
+            <p className="bg-white shadow-md text-red-400 rounded-[50%] w-[40px] h-[40px] text-center flex items-center justify-center">
+              4
+            </p>
+            <h2 className="font-semibold text-[25px]" >Mobile apps</h2>
+          </div>
+          <p className="text-[15px]" >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi velit
+            odio eaque
+          </p>
+        </div>
+      </div>
+      <div className="pt-20 flex gap-52">
+      <img src={heart} alt="" className="h-[100px] w-[150px] opacity-45 -rotate-12 " />
+      <img src={heart} alt="" className="h-[100px] w-[150px] opacity-45   " />
+      <img src={heart} alt="" className="h-[100px] w-[150px] opacity-45  rotate-12" />
+
+
+
       </div>
     </div>
   );

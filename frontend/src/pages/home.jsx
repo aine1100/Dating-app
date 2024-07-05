@@ -1,6 +1,8 @@
+import Customer from "../components/customer"
 import Hero from "../components/hero"
 import Navbar from "../components/navbar"
 import Relationship from "../components/relationship"
+import Soulmeet from "../components/soulmeet"
 import HowItWork from "../components/work"
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
         <Hero/>
         <HowItWork  />
         <Relationship/>
+        <Soulmeet/>
+        <Customer/>
         </div>
     </div>
   )
